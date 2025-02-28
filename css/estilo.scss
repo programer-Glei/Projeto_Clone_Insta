@@ -8,3 +8,10 @@ $--story-color1:#ffe700;
 $--story-color2:#eb0f7c;
 $--side-link:#0095f6;
 $--white:#ffffff;
+
+@media (prefers-color-scheme: dark){
+    $--bakcground: #000000;
+    $--segundary: #121212;
+    $--primary:#f5f5f5;
+    $--secondary-foreground: #000000;
+}
