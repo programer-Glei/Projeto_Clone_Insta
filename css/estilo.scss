@@ -10,10 +10,12 @@ $--white:#ffffff;
 
 
 @media (prefers-color-scheme: dark){
-    $--bakcground: #000000;
-    $--segundary: #121212;
-    $--primary:#f5f5f5;
-    $--secondary-foreground: #000000;
+    :root{
+        $--bakcground: #000000;
+        $--segundary: #121212;
+        $--primary:#f5f5f5;
+        $--secondary-foreground: #737373;
+    }
 }
 
 *{
@@ -27,4 +29,12 @@ html{
     font-family: sans-serif;
     font-size: 62.5%;
     min-height: 100vh;
+}
+
+body{
+    background: $--bakcground;
+    color: $--primary;
+    font-size: 1.6rem;
+    width: 80px;
+    min-height: 100%;
 }
