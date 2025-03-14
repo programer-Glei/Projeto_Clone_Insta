@@ -1,0 +1,19 @@
+:root{
+    --background: #ffffff;
+    --secondary: #CCCCCC;
+    --primary: #000000;
+    --secondary-foreground: #DDDDDD;
+    --story-color1: #FFE700;
+    --story-color2: #EB0F7C;
+    --side-link: #0095F6;
+    --white: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --background: #000000;
+        --secondary: #121212;
+        --primary: #F5F5F5;
+        --secondary-foreground: #737373;
+    }
+}
